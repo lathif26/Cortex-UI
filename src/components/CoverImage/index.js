@@ -35,7 +35,7 @@ const CoverImageCtn = () => {
           
          
           
-          <div className='flex flex-wrap  pr-[650px] justify-start  items-center '>
+          <div className='flex flex-wrap  pr-[650px] justify-start  items-center text-white'>
             <ol>
               <li>1.Upload valid Prescription </li>
               <li>2.Receive a confirmation call</li>
