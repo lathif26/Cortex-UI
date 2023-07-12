@@ -22,9 +22,9 @@ const Footer = () =>{
     {name: "Brain Care", src: Brain},
                     ]
 
-    return <div className='w-full py-8 px-24 flex justify-between items-center overflow-x-hidden'>
+    return <div className='w-full py-8 px-4 gap-4 lg:px-24 flex flex-wrap justify-center lg:justify-between items-center overflow-x-hidden'>
         {itemList.map((val, idx) =>{
-            return <div className='flex flex-col w-[70px] gap-2'>
+            return <div className='flex flex-col w-[70px] gap-2' key={idx}>
                 <div className='w-full rounded-full border-[1px] p-4 border-[#f6ab01] bg-[#FFF3D6]'><img className="w-full" src={val.src} alt={val.name}/></div>
                 <div className='text-[10px] font-semibold flex justify-center'>{val.name}</div>
             </div>
