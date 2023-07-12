@@ -28,14 +28,14 @@ const CoverImageCtn = () => {
         </div>
         <div className="h-full grow flex flex-col px-10 py-20  justify-center items-center ">
        
-          <div className="flex flex-wrap justify-start pr-[200px] text-white font-bold  text-[40px] ">
+          <div className="flex flex-wrap justify-start pr-[450px] text-white font-bold  text-[40px] ">
             <span className="inline-block w-full">FLAT 25% OFF</span>
             <span className="inline-block w-full">on MEDICINE order</span>
           </div>
           
          
           
-          <div className='flex flex-wrap  pr-[650px] justify-start  items-center text-white'>
+          <div className='flex flex-wrap  pr-[900px] justify-start  items-center text-white'>
             <ol>
               <li>1.Upload valid Prescription </li>
               <li>2.Receive a confirmation call</li>
